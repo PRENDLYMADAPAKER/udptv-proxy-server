@@ -1,0 +1,14 @@
+{
+  "name": "udptv-proxy-server",
+  "version": "1.0.0",
+  "description": "Special proxy server for UDPTV.m3u with segment rewriting and custom headers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
